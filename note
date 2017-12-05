@@ -1,0 +1,37 @@
+三分类（把太少的归为一类）
+    n_features = 36
+    n_height = 6
+    n_classes = 3
+    dropout = 0.5
+    hidden_size_1 = 128
+    hidden_size_2 = 512
+    batch_size = 2048
+    n_epochs = 100
+    lr = 0.001
+    lamda = 0.01
+    trainrate = 0.9
+
+41特征取前36转化为图6*6，cnn 3*3*32 same pool 2*2 步长2
+最好的结果：
+dev class: 0 acc: 0.990821809032 class: 1 acc: 0.983316481294 class: 2 acc: 0.993412570095 
+test class: 0 acc: 0.712535936028 class: 1 acc: 0.985995850622 class: 2 acc: 0.986138788856 
+step: 191000 loss: 0.0373744 dev_acc: 0.992859 test_acc: 0.913314
+
+问题：震荡剧烈loss0.02附近下不去
+
+尝试更小的lr更大的minibatch
+class: 0 acc: 0.983888655441 class: 1 acc: 0.214285714286 class: 2 acc: 0.989402004875 
+class: 0 acc: 0.717876071612 class: 1 acc: 0.428571428571 class: 2 acc: 0.975547273235 
+step: 126000 loss: 0.136547 dev_acc: 0.988259 test_acc: 0.907697
+
+
+2分类
+
+class: 0 acc: 0.998982896048 class: 1 acc: 0.998422660258 
+class: 0 acc: 0.904671494848 class: 1 acc: 0.9933017967 
+step: 26000 loss: 0.0578054 dev_acc: 0.998534 test_acc: 0.973372
+
+class: 0 acc: 0.998883109093 class: 1 acc: 0.998732380605 
+class: 0 acc: 0.903144596512 class: 1 acc: 0.993775149508 
+step: 377000 loss: 0.059806 dev_acc: 0.998762 test_acc: 0.973324
+
