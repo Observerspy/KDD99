@@ -1,0 +1,89 @@
+/home/codekitty/anaconda3/bin/python /home/codekitty/WORK/KDD99/2layersNN.py
+used time: 0:02:30.627190
+(4898431, 41)
+(4898431,)
+used time: 0:00:09.687048
+(311029, 41)
+(311029,)
+train size : (4408587, 41) (4408587,)
+dev size : (489843, 41) (489843,)
+test size : (311029, 41) (311029,)
+start training
+2017-11-22 08:41:26.342563: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-22 08:41:26.342605: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-22 08:41:26.342610: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-22 08:41:26.342613: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-22 08:41:26.342616: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+class: 0 acc: nan class: 1 acc: 0.013163 class: 2 acc: 0.930827 class: 3 acc: 1.3784e-05 class: 4 acc: nan 
+class: 0 acc: nan class: 1 acc: 0.0282504 class: 2 acc: 0.906588 class: 3 acc: 0.000777425 class: 4 acc: nan 
+step: 0 loss: 136.057 dev_acc: 0.575074 test_acc: 0.431352
+class: 0 acc: 0.982273 class: 1 acc: nan class: 2 acc: 0.980485 class: 3 acc: nan class: 4 acc: nan 
+class: 0 acc: 0.705799 class: 1 acc: nan class: 2 acc: 0.971797 class: 3 acc: nan class: 4 acc: nan 
+step: 1000 loss: 33.3032 dev_acc: 0.980831 test_acc: 0.901389
+class: 0 acc: 0.981936 class: 1 acc: nan class: 2 acc: 0.982257 class: 3 acc: nan class: 4 acc: nan 
+class: 0 acc: 0.7043 class: 1 acc: nan class: 2 acc: 0.973341 class: 3 acc: nan class: 4 acc: nan 
+step: 2000 loss: 125.419 dev_acc: 0.982194 test_acc: 0.901742
+class: 0 acc: 0.98177 class: 1 acc: nan class: 2 acc: 0.983203 class: 3 acc: nan class: 4 acc: nan 
+class: 0 acc: 0.703459 class: 1 acc: nan class: 2 acc: 0.974176 class: 3 acc: nan class: 4 acc: nan 
+step: 3000 loss: 11.2183 dev_acc: 0.982923 test_acc: 0.901913
+class: 0 acc: 0.981465 class: 1 acc: 0.0 class: 2 acc: 0.983827 class: 3 acc: nan class: 4 acc: nan 
+class: 0 acc: 0.702813 class: 1 acc: nan class: 2 acc: 0.974917 class: 3 acc: nan class: 4 acc: nan 
+step: 4000 loss: 11.8533 dev_acc: 0.983348 test_acc: 0.902106
+class: 0 acc: 0.981308 class: 1 acc: 0.0 class: 2 acc: 0.984451 class: 3 acc: nan class: 4 acc: nan 
+class: 0 acc: 0.702398 class: 1 acc: 0.0 class: 2 acc: 0.9756 class: 3 acc: nan class: 4 acc: nan 
+step: 5000 loss: 48.7952 dev_acc: 0.983725 test_acc: 0.902318
+class: 0 acc: 0.981104 class: 1 acc: 0.0 class: 2 acc: 0.984926 class: 3 acc: nan class: 4 acc: nan 
+class: 0 acc: 0.701834 class: 1 acc: 0.0 class: 2 acc: 0.976236 class: 3 acc: nan class: 4 acc: nan 
+step: 6000 loss: 13.9583 dev_acc: 0.984025 test_acc: 0.902459
+class: 0 acc: 0.980961 class: 1 acc: 0.0 class: 2 acc: 0.985224 class: 3 acc: nan class: 4 acc: nan 
+class: 0 acc: 0.701511 class: 1 acc: 0.0 class: 2 acc: 0.976599 class: 3 acc: nan class: 4 acc: nan 
+step: 7000 loss: 10.9561 dev_acc: 0.984205 test_acc: 0.902546
+class: 0 acc: 0.980826 class: 1 acc: 0.0 class: 2 acc: 0.985487 class: 3 acc: nan class: 4 acc: nan 
+class: 0 acc: 0.701223 class: 1 acc: 0.0 class: 2 acc: 0.976868 class: 3 acc: nan class: 4 acc: nan 
+step: 8000 loss: 6.92491 dev_acc: 0.984364 test_acc: 0.902585
+class: 0 acc: 0.980745 class: 1 acc: 0.0 class: 2 acc: 0.985662 class: 3 acc: nan class: 4 acc: nan 
+class: 0 acc: 0.700982 class: 1 acc: 0.0 class: 2 acc: 0.977124 class: 3 acc: nan class: 4 acc: nan 
+step: 9000 loss: 14.9178 dev_acc: 0.984466 test_acc: 0.902626
+class: 0 acc: 0.980677 class: 1 acc: 0.0 class: 2 acc: 0.98582 class: 3 acc: nan class: 4 acc: nan 
+class: 0 acc: 0.70074 class: 1 acc: 0.0 class: 2 acc: 0.977317 class: 3 acc: nan class: 4 acc: nan 
+step: 10000 loss: 12.3223 dev_acc: 0.984585 test_acc: 0.902652
+class: 0 acc: 0.980542 class: 1 acc: 0.00877193 class: 2 acc: 0.985932 class: 3 acc: nan class: 4 acc: nan 
+class: 0 acc: 0.700452 class: 1 acc: 0.0769231 class: 2 acc: 0.97754 class: 3 acc: nan class: 4 acc: nan 
+step: 11000 loss: 23.6557 dev_acc: 0.98464 test_acc: 0.902691
+class: 0 acc: 0.980479 class: 1 acc: 0.00840336 class: 2 acc: 0.986032 class: 3 acc: nan class: 4 acc: nan 
+class: 0 acc: 0.700311 class: 1 acc: 0.0833333 class: 2 acc: 0.977677 class: 3 acc: nan class: 4 acc: nan 
+step: 12000 loss: 11.4669 dev_acc: 0.984697 test_acc: 0.90272
+class: 0 acc: 0.980452 class: 1 acc: 0.00840336 class: 2 acc: 0.98608 class: 3 acc: nan class: 4 acc: nan 
+class: 0 acc: 0.700005 class: 1 acc: 0.08 class: 2 acc: 0.977888 class: 3 acc: nan class: 4 acc: nan 
+step: 13000 loss: 88.9252 dev_acc: 0.98473 test_acc: 0.902742
+class: 0 acc: 0.980367 class: 1 acc: 0.0247934 class: 2 acc: 0.986185 class: 3 acc: nan class: 4 acc: nan 
+class: 0 acc: 0.699908 class: 1 acc: 0.08 class: 2 acc: 0.977969 class: 3 acc: nan class: 4 acc: nan 
+step: 14000 loss: 82.2312 dev_acc: 0.984797 test_acc: 0.902755
+class: 0 acc: 0.980341 class: 1 acc: 0.0254237 class: 2 acc: 0.986228 class: 3 acc: nan class: 4 acc: nan 
+class: 0 acc: 0.699863 class: 1 acc: 0.12 class: 2 acc: 0.978029 class: 3 acc: nan class: 4 acc: nan 
+step: 15000 loss: 42.2653 dev_acc: 0.984832 test_acc: 0.902778
+class: 0 acc: 0.980325 class: 1 acc: 0.0569106 class: 2 acc: 0.986293 class: 3 acc: nan class: 4 acc: nan 
+class: 0 acc: 0.699837 class: 1 acc: 0.125 class: 2 acc: 0.978076 class: 3 acc: nan class: 4 acc: nan 
+step: 16000 loss: 88.0245 dev_acc: 0.984879 test_acc: 0.902794
+class: 0 acc: 0.980268 class: 1 acc: 0.0564516 class: 2 acc: 0.986341 class: 3 acc: nan class: 4 acc: nan 
+class: 0 acc: 0.69981 class: 1 acc: 0.125 class: 2 acc: 0.978106 class: 3 acc: nan class: 4 acc: nan 
+step: 17000 loss: 44.2455 dev_acc: 0.984903 test_acc: 0.9028
+class: 0 acc: 0.98025 class: 1 acc: 0.0714286 class: 2 acc: 0.986376 class: 3 acc: nan class: 4 acc: nan 
+class: 0 acc: 0.699761 class: 1 acc: 0.125 class: 2 acc: 0.978154 class: 3 acc: nan class: 4 acc: nan 
+step: 18000 loss: 16.8924 dev_acc: 0.984928 test_acc: 0.90281
+class: 0 acc: 0.980242 class: 1 acc: 0.0708661 class: 2 acc: 0.986406 class: 3 acc: nan class: 4 acc: nan 
+class: 0 acc: 0.699738 class: 1 acc: 0.16 class: 2 acc: 0.978179 class: 3 acc: nan class: 4 acc: nan 
+step: 19000 loss: 11.9252 dev_acc: 0.984948 test_acc: 0.902816
+class: 0 acc: 0.980233 class: 1 acc: 0.078125 class: 2 acc: 0.986418 class: 3 acc: nan class: 4 acc: nan 
+class: 0 acc: 0.699738 class: 1 acc: 0.16 class: 2 acc: 0.978179 class: 3 acc: nan class: 4 acc: nan 
+step: 20000 loss: 11.5085 dev_acc: 0.984956 test_acc: 0.902816
+class: 0 acc: 0.980234 class: 1 acc: 0.078125 class: 2 acc: 0.986426 class: 3 acc: nan class: 4 acc: nan 
+class: 0 acc: 0.69976 class: 1 acc: 0.16 class: 2 acc: 0.978205 class: 3 acc: nan class: 4 acc: nan 
+step: 21000 loss: 9.84995 dev_acc: 0.984963 test_acc: 0.902835
+class: 0 acc: 0.980225 class: 1 acc: 0.078125 class: 2 acc: 0.986441 class: 3 acc: nan class: 4 acc: nan 
+class: 0 acc: 0.69975 class: 1 acc: 0.16 class: 2 acc: 0.978218 class: 3 acc: nan class: 4 acc: nan 
+step: 22000 loss: 74.0822 dev_acc: 0.984973 test_acc: 0.902839
+class: 0 acc: 0.980227 class: 1 acc: 0.078125 class: 2 acc: 0.986469 class: 3 acc: nan class: 4 acc: nan 
+class: 0 acc: 0.699761 class: 1 acc: 0.16 class: 2 acc: 0.978231 class: 3 acc: nan class: 4 acc: nan 
+step: 23000 loss: 7.08242 dev_acc: 0.984995 test_acc: 0.902848
+
